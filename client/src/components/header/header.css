@@ -1,0 +1,56 @@
+.header {
+    padding: 0 7vw;
+}
+
+.logo {
+    height: calc(var(--index) * 34);
+    position: absolute;
+    left: 36vw;
+    top: 10vh;
+    z-index: -1;
+    color: var(--color-header);
+}
+
+.header-order-button {
+    top: 6vh;
+    left: 17vw;
+}
+
+.header-paragraph-one {
+    font-size: calc(var(--index) * 2);
+    font-weight: 300;
+    line-height: 0.95;
+    text-align: center;
+    position: absolute;
+    top: 5vh;
+    left: 80vw;
+}
+
+.header-arrow {
+    height: calc(var(--index) * 5);
+    position: relative;
+    top: 4vh;
+    left: -2vw;
+}
+
+.header-paragraph-two {
+    font-size: calc(var(--index) * 1.9);
+    font-weight: 350;
+    line-height: 0.97;
+    position: absolute;
+    top: 27vh;
+    left: 13vw;
+}
+
+.header-one {
+    font-size: calc(var(--index) * 4.9);
+    line-height: 0.94;
+    position: absolute;
+    bottom: 22vh;
+}
+
+.header-paragraph-three {
+    font-size: calc(var(--index) * 1);
+    position: absolute;
+    bottom: 3vh;
+}

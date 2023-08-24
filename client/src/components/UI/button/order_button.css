@@ -1,0 +1,22 @@
+.order-button {
+    position: absolute;
+    border: 0;
+    border-radius: 8px;
+    padding: calc(var(--index) * 0.8) calc(var(--index) * 1.2);
+    font-size: calc(var(--index) * 1.1);
+    background-color: var(--color-header);
+    color: var(--color-blue);
+    transition: var(--transition);
+}
+
+.order-button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-header);
+    cursor: pointer;
+}
+
+.order-button:active {
+    background-color: var(--color-blue-active);
+    color: var(--color-header);
+    cursor: pointer;
+}
